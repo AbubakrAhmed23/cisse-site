@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/routing';
 import { waLink } from '@/lib/whatsapp';
-import { Dumbbell, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import Logo from './Logo';
 
 const NAV_LINKS = [
   { id: 'training', key: 'training' },
@@ -46,15 +47,13 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
         {/* Marka */}
-        <a href="#home" className="flex items-center gap-2.5">
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-gold/15 text-gold ring-1 ring-gold/30">
-            <Dumbbell className="h-5 w-5" strokeWidth={2.5} />
-          </span>
+        <a href="#home" className="group flex items-center gap-2.5">
+          <Logo className="h-10 w-10 transition-transform group-hover:scale-105" />
           <span className="flex flex-col leading-none">
-            <span className="display text-lg tracking-wide text-white">
+            <span className="display text-xl tracking-[0.04em] text-white">
               {tBrand('name')}
             </span>
-            <span className="text-[9px] font-semibold tracking-[0.25em] text-gold/80">
+            <span className="mt-0.5 text-[9px] font-semibold tracking-[0.28em] text-gold/80">
               {tBrand('tagline')}
             </span>
           </span>

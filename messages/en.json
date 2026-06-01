@@ -1,7 +1,9 @@
 {
   "brand": {
     "name": "CALISTHENIX",
-    "tagline": "STRONGER EVERYDAY"
+    "tagline": "STRONGER EVERYDAY",
+    "metaTitle": "CALISTHENIX — Personal Calisthenics Coaching",
+    "metaDescription": "Get stronger with just your bodyweight, no equipment. Personalized calisthenics training programs, nutrition guidance and one-on-one coaching."
   },
   "nav": {
     "home": "Home",

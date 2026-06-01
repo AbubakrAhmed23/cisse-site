@@ -3,7 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { waLink } from '@/lib/whatsapp';
 import {
-  Dumbbell,
   ShieldCheck,
   RotateCcw,
   Infinity as InfinityIcon,
@@ -11,6 +10,7 @@ import {
   Instagram,
   Youtube,
 } from 'lucide-react';
+import Logo from './Logo';
 
 const NAV_LINKS = ['training', 'about', 'packages', 'testimonials', 'faq'] as const;
 
@@ -43,14 +43,12 @@ export default function Footer() {
         {/* Marka */}
         <div>
           <div className="flex items-center gap-2.5">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-gold/15 text-gold ring-1 ring-gold/30">
-              <Dumbbell className="h-5 w-5" strokeWidth={2.5} />
-            </span>
+            <Logo className="h-10 w-10" />
             <span className="flex flex-col leading-none">
-              <span className="display text-lg tracking-wide text-white">
+              <span className="display text-xl tracking-[0.04em] text-white">
                 {tBrand('name')}
               </span>
-              <span className="text-[9px] font-semibold tracking-[0.25em] text-gold/80">
+              <span className="mt-0.5 text-[9px] font-semibold tracking-[0.28em] text-gold/80">
                 {tBrand('tagline')}
               </span>
             </span>

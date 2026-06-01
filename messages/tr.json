@@ -1,7 +1,9 @@
 {
   "brand": {
     "name": "CALISTHENIX",
-    "tagline": "STRONGER EVERYDAY"
+    "tagline": "STRONGER EVERYDAY",
+    "metaTitle": "CALISTHENIX — Kişisel Calisthenics Koçluğu",
+    "metaDescription": "Kendi vücut ağırlığınla, ekipmansız güçlen. Kişiye özel calisthenics antrenman programları, beslenme rehberi ve birebir koçluk."
   },
   "nav": {
     "home": "Anasayfa",

@@ -1,0 +1,172 @@
+{
+  "brand": {
+    "name": "CALISTHENIX",
+    "tagline": "STRONGER EVERYDAY"
+  },
+  "nav": {
+    "home": "Home",
+    "training": "Training",
+    "about": "About",
+    "packages": "Packages",
+    "testimonials": "Reviews",
+    "faq": "FAQ",
+    "cta": "Start Now"
+  },
+  "hero": {
+    "eyebrow": "PERSONAL CALISTHENICS COACHING",
+    "titleTop": "DON'T LIMIT",
+    "titleHighlight": "YOUR BODY",
+    "subtitle": "With just your bodyweight, no equipment. Get stronger, get fit, gain confidence. Let's push your limits together.",
+    "ctaPrimary": "Start Now",
+    "ctaSecondary": "View Packages",
+    "whatsappMessage": "Hi! I'd like to learn more about your calisthenics coaching.",
+    "badgeExperience": "5+ years experience",
+    "badgeStudents": "200+ students",
+    "badgeSupport": "24/7 support"
+  },
+  "values": {
+    "strength": { "title": "Strength", "desc": "Believe in yourself, unlock your power" },
+    "endurance": { "title": "Endurance", "desc": "Push your limits step by step" },
+    "focus": { "title": "Focus", "desc": "Strengthen your mind and body" },
+    "discipline": { "title": "Discipline", "desc": "Turn consistency into a habit" }
+  },
+  "training": {
+    "eyebrow": "WHAT I TEACH",
+    "heading": "Training Areas",
+    "subheading": "From zero to advanced — everything you can achieve with your own bodyweight.",
+    "areas": {
+      "foundations": {
+        "title": "Foundational Strength",
+        "desc": "Build a rock-solid, injury-resistant base with push-ups, pull-ups, dips and squats."
+      },
+      "statics": {
+        "title": "Static Skills",
+        "desc": "Impressive balance and strength feats: planche, front lever, human flag and handstand."
+      },
+      "dynamics": {
+        "title": "Dynamic & Explosive",
+        "desc": "Transition to power and speed with muscle-ups, explosive pull-ups and plyometrics."
+      },
+      "mobility": {
+        "title": "Mobility & Flexibility",
+        "desc": "Long-term performance through joint health, shoulder–wrist prep and flexibility."
+      },
+      "nutrition": {
+        "title": "Nutrition & Programming",
+        "desc": "A nutrition guide and weekly training plan tailored to your goals."
+      },
+      "roadmap": {
+        "title": "Personal Roadmap",
+        "desc": "A clear, measurable progression plan from beginner to advanced."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "ABOUT",
+    "heading": "Let's go beyond your limits together",
+    "p1": "For years I've been discovering my own body's potential through calisthenics, and bringing that journey to hundreds of students. You don't need expensive equipment or a gym — just you, willpower and the right program.",
+    "p2": "I build a custom program for every student based on their level, and track your progress step by step with technique videos and one-on-one feedback. The goal isn't just to get stronger; it's a more disciplined, more confident you.",
+    "statYears": "5+",
+    "statYearsLabel": "Years of experience",
+    "statStudents": "200+",
+    "statStudentsLabel": "Happy students",
+    "statRating": "4.9",
+    "statRatingLabel": "Average rating"
+  },
+  "packages": {
+    "eyebrow": "CHOOSE YOUR PACKAGE",
+    "heading": "Our Packages",
+    "subheading": "Flexible coaching packages for every level. Upgrade anytime.",
+    "perMonth": "/mo",
+    "popular": "Most Popular",
+    "select": "Choose This Package",
+    "whatsappPrefix": "Hi, I'd like to learn more about the {package}.",
+    "starter": {
+      "name": "Starter Package",
+      "price": "₺499",
+      "tagline": "Start from scratch, build your base",
+      "features": ["Training Program", "Nutrition Guide", "Technique Videos", "24/7 Support"]
+    },
+    "growth": {
+      "name": "Growth Package",
+      "price": "₺799",
+      "tagline": "Steady progress, consistent results",
+      "features": ["Training Program", "Nutrition Guide", "Technique Videos", "Progress Tracking", "24/7 Support"]
+    },
+    "pro": {
+      "name": "Pro Package",
+      "price": "₺1299",
+      "tagline": "Professional support, maximum transformation",
+      "features": ["Training Program", "Nutrition Guide", "Technique Videos", "Progress Tracking", "One-on-One Coaching", "24/7 Support"]
+    }
+  },
+  "testimonials": {
+    "eyebrow": "WHAT OUR ATHLETES SAY",
+    "heading": "The results speak",
+    "items": [
+      {
+        "quote": "Thanks to this program I transformed into a completely different person, both physically and mentally. I got my first muscle-up in 3 months!",
+        "name": "Mert E.",
+        "role": "Growth Package"
+      },
+      {
+        "quote": "I never thought I could progress this much at home with just my bodyweight, without going to a gym. The program and support are excellent.",
+        "name": "Zeynep K.",
+        "role": "Starter Package"
+      },
+      {
+        "quote": "You feel the difference of one-on-one coaching instantly. My technique improved and I got stronger without injuries.",
+        "name": "Can A.",
+        "role": "Pro Package"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "GOT QUESTIONS?",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Do I need any equipment?",
+        "a": "No. The programs can be done entirely with your own bodyweight. If you like, we can add variety with simple gear like a pull-up bar."
+      },
+      {
+        "q": "I'm a beginner — is that okay?",
+        "a": "Absolutely. Programs are personalized to your level. Even someone who has never trained can start safely."
+      },
+      {
+        "q": "Are the sessions online?",
+        "a": "Yes, all coaching is done remotely. You receive your program, video technique breakdowns and feedback digitally."
+      },
+      {
+        "q": "How soon will I see results?",
+        "a": "With consistent training, noticeable strength and form changes usually begin within 4–6 weeks. Your progress is tracked throughout."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Message me on WhatsApp; we'll pick the package that fits your level and goals and get started right away."
+      }
+    ]
+  },
+  "ctaBand": {
+    "heading": "Ready to unlock your potential?",
+    "subheading": "Take the first step — let's push your limits together.",
+    "button": "Message on WhatsApp",
+    "whatsappMessage": "Hi! I'd like to start my calisthenics journey."
+  },
+  "footer": {
+    "tagline": "Your bodyweight, limitless power.",
+    "trust": {
+      "secure": "100% Secure",
+      "refund": "7-Day Refund",
+      "lifetime": "Lifetime Access",
+      "support": "24/7 Support"
+    },
+    "navTitle": "Menu",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved."
+  },
+  "whatsapp": {
+    "float": "Message on WhatsApp",
+    "defaultMessage": "Hi! I'd like to learn more about your calisthenics coaching."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "brand": {
+    "name": "CALISTHENIX",
+    "tagline": "STRONGER EVERYDAY"
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "training": "Eğitim Alanları",
+    "about": "Hakkımızda",
+    "packages": "Paketler",
+    "testimonials": "Yorumlar",
+    "faq": "SSS",
+    "cta": "Hemen Başla"
+  },
+  "hero": {
+    "eyebrow": "KİŞİSEL CALISTHENICS KOÇLUĞU",
+    "titleTop": "BEDENİNİ",
+    "titleHighlight": "SINIRLAMA",
+    "subtitle": "Kendi vücut ağırlığınla, ekipmansız. Güçlen, forma gir, özgüven kazan. Sınırlarını birlikte aşalım.",
+    "ctaPrimary": "Hemen Başla",
+    "ctaSecondary": "Paketleri İncele",
+    "whatsappMessage": "Merhaba! Calisthenics koçluğu hakkında bilgi almak istiyorum.",
+    "badgeExperience": "5+ yıl deneyim",
+    "badgeStudents": "200+ öğrenci",
+    "badgeSupport": "7/24 destek"
+  },
+  "values": {
+    "strength": { "title": "Güç", "desc": "Kendine inan, gücünü ortaya çıkar" },
+    "endurance": { "title": "Dayanıklılık", "desc": "Sınırlarını adım adım aş" },
+    "focus": { "title": "Odak", "desc": "Zihnini ve bedenini güçlendir" },
+    "discipline": { "title": "Disiplin", "desc": "İstikrarı alışkanlık haline getir" }
+  },
+  "training": {
+    "eyebrow": "NE ÖĞRETİYORUM",
+    "heading": "Eğitim Alanları",
+    "subheading": "Sıfırdan ileri seviyeye, kendi vücut ağırlığınla ulaşabileceğin her şey.",
+    "areas": {
+      "foundations": {
+        "title": "Temel Kuvvet",
+        "desc": "Şınav, barfiks, dips ve squat ile sağlam ve sakatlanmaya dirençli bir temel oluştur."
+      },
+      "statics": {
+        "title": "Statik Skiller",
+        "desc": "Planche, front lever, human flag ve handstand gibi etkileyici denge ve güç hareketleri."
+      },
+      "dynamics": {
+        "title": "Dinamik & Patlayıcı",
+        "desc": "Muscle-up, patlayıcı barfiks ve plyometri ile güç ve hıza geçiş yap."
+      },
+      "mobility": {
+        "title": "Mobilite & Esneklik",
+        "desc": "Eklem sağlığı, omuz–bilek hazırlığı ve esneklik ile uzun vadeli performans."
+      },
+      "nutrition": {
+        "title": "Beslenme & Program",
+        "desc": "Hedefine özel beslenme rehberi ve haftalık antrenman planı."
+      },
+      "roadmap": {
+        "title": "Kişisel Yol Haritası",
+        "desc": "Başlangıçtan ileri seviyeye, ölçülebilir ve net bir ilerleme planı."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "HAKKIMIZDA",
+    "heading": "Sınırların ötesine birlikte geçelim",
+    "p1": "Yıllardır calisthenics ile kendi vücudumun potansiyelini keşfediyor ve bu yolculuğu yüzlerce öğrenciye taşıyorum. Pahalı ekipmanlara ya da spor salonuna ihtiyacın yok — sadece sen, irade ve doğru bir program.",
+    "p2": "Her öğrenciye seviyesine göre özel program hazırlıyor, teknik videolar ve birebir geri bildirimle ilerlemeni adım adım takip ediyorum. Amaç sadece daha güçlü olmak değil; daha disiplinli, daha özgüvenli bir sen.",
+    "statYears": "5+",
+    "statYearsLabel": "Yıl deneyim",
+    "statStudents": "200+",
+    "statStudentsLabel": "Mutlu öğrenci",
+    "statRating": "4.9",
+    "statRatingLabel": "Ortalama puan"
+  },
+  "packages": {
+    "eyebrow": "SANA UYGUN PAKETİ SEÇ",
+    "heading": "Paketlerimiz",
+    "subheading": "Her seviyeye uygun esnek koçluk paketleri. İstediğin zaman yükselt.",
+    "perMonth": "/ay",
+    "popular": "En Popüler",
+    "select": "Bu Paketi Seç",
+    "whatsappPrefix": "Merhaba, {package} hakkında bilgi almak istiyorum.",
+    "starter": {
+      "name": "Başlangıç Paketi",
+      "price": "₺499",
+      "tagline": "Sıfırdan başla, temelini oluştur",
+      "features": ["Antrenman Programı", "Beslenme Rehberi", "Teknik Videolar", "7/24 Destek"]
+    },
+    "growth": {
+      "name": "Gelişim Paketi",
+      "price": "₺799",
+      "tagline": "Düzenli gelişim, istikrarlı sonuç",
+      "features": ["Antrenman Programı", "Beslenme Rehberi", "Teknik Videolar", "İlerleme Takibi", "7/24 Destek"]
+    },
+    "pro": {
+      "name": "Pro Paket",
+      "price": "₺1299",
+      "tagline": "Profesyonel destek, maksimum dönüşüm",
+      "features": ["Antrenman Programı", "Beslenme Rehberi", "Teknik Videolar", "İlerleme Takibi", "Birebir Koçluk", "7/24 Destek"]
+    }
+  },
+  "testimonials": {
+    "eyebrow": "SPORCULARIMIZ NE DİYOR?",
+    "heading": "Sonuçlar konuşuyor",
+    "items": [
+      {
+        "quote": "Bu program sayesinde hem fiziksel hem mental olarak bambaşka birine dönüştüm. İlk muscle-up'ımı 3 ayda aldım!",
+        "name": "Mert E.",
+        "role": "Gelişim Paketi"
+      },
+      {
+        "quote": "Spor salonuna gitmeden, evde kendi vücudumla bu kadar ilerleyebileceğimi düşünmezdim. Program ve destek mükemmel.",
+        "name": "Zeynep K.",
+        "role": "Başlangıç Paketi"
+      },
+      {
+        "quote": "Birebir koçluk farkını anında hissediyorsun. Tekniklerim düzeldi, sakatlanmadan güçlendim.",
+        "name": "Can A.",
+        "role": "Pro Paket"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "AKLINDA SORU MU VAR?",
+    "heading": "Sıkça Sorulan Sorular",
+    "items": [
+      {
+        "q": "Ekipmana ihtiyacım var mı?",
+        "a": "Hayır. Programlar tamamen kendi vücut ağırlığınla yapılabilir. İstersen barfiks demiri gibi basit ekipmanlarla çeşitlendirebiliriz."
+      },
+      {
+        "q": "Başlangıç seviyesiyim, yine de olur mu?",
+        "a": "Kesinlikle. Programlar seviyene göre kişiselleştirilir. Hiç spor yapmamış biri de güvenle başlayabilir."
+      },
+      {
+        "q": "Antrenmanlar online mı?",
+        "a": "Evet, tüm koçluk uzaktan yürütülür. Program, video teknik anlatımları ve geri bildirimleri dijital olarak alırsın."
+      },
+      {
+        "q": "Ne kadar sürede sonuç alırım?",
+        "a": "İstikrarlı çalışmayla genellikle 4–6 hafta içinde belirgin güç ve form değişimi başlar. İlerlemen takip edilir."
+      },
+      {
+        "q": "Nasıl başlarım?",
+        "a": "WhatsApp üzerinden bana yaz; seviyene ve hedefine uygun paketi birlikte belirleyip hemen başlayalım."
+      }
+    ]
+  },
+  "ctaBand": {
+    "heading": "Potansiyelini ortaya çıkarmaya hazır mısın?",
+    "subheading": "İlk adımı at — birlikte sınırlarını aşalım.",
+    "button": "WhatsApp'tan Yaz",
+    "whatsappMessage": "Merhaba! Calisthenics yolculuğuma başlamak istiyorum."
+  },
+  "footer": {
+    "tagline": "Kendi vücudunla, sınırsız güç.",
+    "trust": {
+      "secure": "%100 Güvenli",
+      "refund": "7 Gün İade",
+      "lifetime": "Ömür Boyu Erişim",
+      "support": "7/24 Destek"
+    },
+    "navTitle": "Menü",
+    "contactTitle": "İletişim",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "whatsapp": {
+    "float": "WhatsApp'tan yaz",
+    "defaultMessage": "Merhaba! Calisthenics koçluğu hakkında bilgi almak istiyorum."
+  }
+}

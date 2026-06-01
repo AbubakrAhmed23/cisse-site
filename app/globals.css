@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* sticky navbar yüksekliği */
+}
+
+body {
+  @apply bg-ink-950 text-zinc-200 antialiased;
+}
+
+/* Display başlıklar: hafif italik, sıkıştırılmış atletik his */
+.display {
+  font-family: var(--font-anton), Impact, sans-serif;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* İnce kaydırma çubuğu */
+::selection {
+  @apply bg-gold/30 text-white;
+}
+
+/* Bölüm vurgusu için ince grain/parıltı yardımcıları */
+.text-gradient-gold {
+  background: linear-gradient(180deg, #FFD27D 0%, #F5A623 55%, #E08C00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glow-gold {
+  box-shadow: 0 0 60px -10px rgba(245, 166, 35, 0.45);
+}

@@ -7,11 +7,10 @@ import SectionHeading from './SectionHeading';
 
 const AREAS = [
   { key: 'foundations', img: '/images/1.jpeg', focal: 'object-[50%_22%]' },
-  { key: 'statics', img: '/images/train-statics.jpg', focal: 'object-center' },
-  { key: 'dynamics', img: '/images/train-dynamics.jpg', focal: 'object-center' },
-  { key: 'mobility', img: '/images/train-mobility.jpg', focal: 'object-center' },
-  { key: 'nutrition', img: '/images/train-nutrition.jpg', focal: 'object-center' },
-  { key: 'roadmap', img: '/images/train-roadmap.jpg', focal: 'object-center' },
+  { key: 'dynamics', img: '/images/2.jpeg', focal: 'object-[50%_38%]' },
+  { key: 'statics', img: '/images/3.jpeg', focal: 'object-[50%_42%]' },
+  { key: 'roadmap', img: '/images/4.jpeg', focal: 'object-[50%_42%]' },
+  { key: 'mobility', img: '/images/5.jpeg', focal: 'object-[52%_62%]' },
 ] as const;
 
 export default function TrainingAreas() {
@@ -46,6 +45,11 @@ export default function TrainingAreas() {
               />
               {/* Tutarlı koyu gradyan — metin her fotoğrafta okunur */}
               <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/30 to-transparent" />
+
+              {/* Numara rozeti */}
+              <span className="display absolute left-5 top-3 text-3xl text-gold drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
+                {String(i + 1).padStart(2, '0')}
+              </span>
             </div>
 
             {/* İçerik — fotoğrafın üzerinde, sade */}

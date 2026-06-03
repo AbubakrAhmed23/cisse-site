@@ -7,7 +7,7 @@ import SectionHeading from './SectionHeading';
 
 const AREAS = [
   { key: 'foundations', img: '/images/1.jpeg', focal: 'object-[50%_22%]' },
-  { key: 'dynamics', img: '/images/2.jpeg', focal: 'object-[50%_38%]' },
+  { key: 'dynamics', img: '/images/2plus.jpeg', focal: 'object-[50%_32%]' },
   { key: 'statics', img: '/images/3.jpeg', focal: 'object-[50%_42%]' },
   { key: 'roadmap', img: '/images/4.jpeg', focal: 'object-[50%_42%]' },
   { key: 'mobility', img: '/images/5.jpeg', focal: 'object-[52%_62%]' },

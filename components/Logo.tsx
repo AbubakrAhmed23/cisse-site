@@ -10,7 +10,7 @@ export default function Logo({ className = 'h-10 w-10' }: { className?: string }
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Sissestenik"
+      aria-label="Cissesthenics"
     >
       <defs>
         <linearGradient id="cx-gold" x1="6" y1="3" x2="43" y2="45" gradientUnits="userSpaceOnUse">

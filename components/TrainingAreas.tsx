@@ -6,12 +6,12 @@ import { motion } from 'framer-motion';
 import SectionHeading from './SectionHeading';
 
 const AREAS = [
-  { key: 'foundations', img: '/images/train-foundations.jpg' },
-  { key: 'statics', img: '/images/train-statics.jpg' },
-  { key: 'dynamics', img: '/images/train-dynamics.jpg' },
-  { key: 'mobility', img: '/images/train-mobility.jpg' },
-  { key: 'nutrition', img: '/images/train-nutrition.jpg' },
-  { key: 'roadmap', img: '/images/train-roadmap.jpg' },
+  { key: 'foundations', img: '/images/1.jpeg', focal: 'object-[50%_22%]' },
+  { key: 'statics', img: '/images/train-statics.jpg', focal: 'object-center' },
+  { key: 'dynamics', img: '/images/train-dynamics.jpg', focal: 'object-center' },
+  { key: 'mobility', img: '/images/train-mobility.jpg', focal: 'object-center' },
+  { key: 'nutrition', img: '/images/train-nutrition.jpg', focal: 'object-center' },
+  { key: 'roadmap', img: '/images/train-roadmap.jpg', focal: 'object-center' },
 ] as const;
 
 export default function TrainingAreas() {
@@ -42,7 +42,7 @@ export default function TrainingAreas() {
                 alt={t(`areas.${area.key}.title`)}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover grayscale brightness-[0.85] transition-all duration-700 ease-out group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100"
+                className={`object-cover ${area.focal} grayscale brightness-[0.85] transition-all duration-700 ease-out group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100`}
               />
               {/* Tutarlı koyu gradyan — metin her fotoğrafta okunur */}
               <div className="absolute inset-0 bg-gradient-to-t from-ink-950 via-ink-950/30 to-transparent" />

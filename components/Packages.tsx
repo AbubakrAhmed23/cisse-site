@@ -3,17 +3,18 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Check, Star } from 'lucide-react';
-import { waLink } from '@/lib/whatsapp';
+import { useWaLink } from '@/lib/whatsapp';
 import SectionHeading from './SectionHeading';
 
-const PLANS = [
-  { key: 'starter', popular: false },
-  { key: 'growth', popular: true },
-  { key: 'pro', popular: false },
-] as const;
+const PLAN_KEYS = ['starter', 'growth', 'pro'] as const;
 
 export default function Packages() {
+  const waLink = useWaLink();
   const t = useTranslations('packages');
+
+  // Hangi kartta "En Popüler" rozeti çıkacağı panelden ayarlanabilir.
+  const popularKey = t('popularKey');
+  const PLANS = PLAN_KEYS.map((key) => ({ key, popular: key === popularKey }));
 
   return (
     <section id="packages" className="mx-auto max-w-7xl px-5 py-20 sm:px-8 lg:py-28">
@@ -26,6 +27,7 @@ export default function Packages() {
       <div className="mt-14 grid items-stretch gap-6 lg:grid-cols-3">
         {PLANS.map((plan, i) => {
           const name = t(`${plan.key}.name`);
+          const oldPrice = t(`${plan.key}.oldPrice`);
           const features = t.raw(`${plan.key}.features`) as string[];
           const msg = t('whatsappPrefix', { package: name });
 
@@ -52,7 +54,12 @@ export default function Packages() {
               <h3 className="text-lg font-bold text-white">{name}</h3>
               <p className="mt-1 text-sm text-zinc-400">{t(`${plan.key}.tagline`)}</p>
 
-              <div className="mt-5 flex items-end gap-1">
+              <div className="mt-5 flex flex-wrap items-end gap-x-2 gap-y-1">
+                {oldPrice && (
+                  <span className="mb-1.5 text-lg text-zinc-500 line-through decoration-zinc-500/70">
+                    {oldPrice}
+                  </span>
+                )}
                 <span className="display text-5xl text-white">{t(`${plan.key}.price`)}</span>
                 <span className="mb-1.5 text-sm text-zinc-400">{t('perMonth')}</span>
               </div>

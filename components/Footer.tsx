@@ -1,20 +1,20 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { waLink } from '@/lib/whatsapp';
+import SocialLinks from './SocialLinks';
+import { useWaLink } from '@/lib/whatsapp';
 import {
   ShieldCheck,
   RotateCcw,
   Infinity as InfinityIcon,
   Headphones,
-  Instagram,
-  Youtube,
 } from 'lucide-react';
 import Logo from './Logo';
 
 const NAV_LINKS = ['training', 'about', 'packages', 'testimonials', 'faq'] as const;
 
 export default function Footer() {
+  const waLink = useWaLink();
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
   const tBrand = useTranslations('brand');
@@ -88,22 +88,7 @@ export default function Footer() {
           >
             WhatsApp
           </a>
-          <div className="mt-5 flex items-center gap-3">
-            <a
-              href="#"
-              aria-label="Instagram"
-              className="grid h-10 w-10 place-items-center rounded-full border border-white/10 text-zinc-300 transition-colors hover:border-gold/40 hover:text-gold"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a
-              href="#"
-              aria-label="YouTube"
-              className="grid h-10 w-10 place-items-center rounded-full border border-white/10 text-zinc-300 transition-colors hover:border-gold/40 hover:text-gold"
-            >
-              <Youtube className="h-5 w-5" />
-            </a>
-          </div>
+          <SocialLinks className="mt-5 gap-2" size="lg" />
         </div>
       </div>
 

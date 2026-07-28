@@ -3,9 +3,10 @@
 import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/routing';
-import { waLink } from '@/lib/whatsapp';
+import { useWaLink } from '@/lib/whatsapp';
 import { Menu, X } from 'lucide-react';
 import Logo from './Logo';
+import SocialLinks from './SocialLinks';
 
 const NAV_LINKS = [
   { id: 'training', key: 'training' },
@@ -16,6 +17,7 @@ const NAV_LINKS = [
 ] as const;
 
 export default function Navbar() {
+  const waLink = useWaLink();
   const t = useTranslations('nav');
   const tBrand = useTranslations('brand');
   const tHero = useTranslations('hero');
@@ -75,6 +77,8 @@ export default function Navbar() {
 
         {/* Sağ aksiyonlar */}
         <div className="flex items-center gap-3">
+          <SocialLinks className="hidden md:flex" />
+
           <div className="hidden items-center rounded-full border border-white/10 bg-white/5 p-0.5 text-xs font-semibold sm:flex">
             {(['tr', 'en'] as const).map((lng) => (
               <button
@@ -148,6 +152,8 @@ export default function Navbar() {
               {t('cta')}
             </a>
           </div>
+
+          <SocialLinks className="mt-3 border-t border-white/5 pt-3 md:hidden" />
         </div>
       )}
     </header>

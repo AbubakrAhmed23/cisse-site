@@ -3,9 +3,10 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { MessageCircle } from 'lucide-react';
-import { waLink } from '@/lib/whatsapp';
+import { useWaLink } from '@/lib/whatsapp';
 
 export default function CtaBand() {
+  const waLink = useWaLink();
   const t = useTranslations('ctaBand');
 
   return (

@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { waLink } from '@/lib/whatsapp';
+import { useWaLink } from '@/lib/whatsapp';
 
 /** WhatsApp logosu (basit inline SVG) */
 function WhatsAppIcon({ className }: { className?: string }) {
@@ -13,6 +13,7 @@ function WhatsAppIcon({ className }: { className?: string }) {
 }
 
 export default function FloatingWhatsApp() {
+  const waLink = useWaLink();
   const t = useTranslations('whatsapp');
 
   return (

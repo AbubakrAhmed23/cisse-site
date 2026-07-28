@@ -10,10 +10,11 @@ import {
   useTransform,
 } from 'framer-motion';
 import { ArrowRight, ChevronDown } from 'lucide-react';
-import { waLink } from '@/lib/whatsapp';
+import { useWaLink } from '@/lib/whatsapp';
 import ValueIcons from './ValueIcons';
 
 export default function Hero() {
+  const waLink = useWaLink();
   const t = useTranslations('hero');
   const ref = useRef<HTMLElement>(null);
 

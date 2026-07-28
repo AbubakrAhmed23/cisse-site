@@ -81,25 +81,51 @@
     "subheading": "Her seviyeye uygun esnek koçluk paketleri. İstediğin zaman yükselt.",
     "perMonth": "/ay",
     "popular": "En Popüler",
+    "popularKey": "growth",
     "select": "Bu Paketi Seç",
     "whatsappPrefix": "Merhaba, {package} hakkında bilgi almak istiyorum.",
     "starter": {
-      "name": "Başlangıç Paketi",
+      "name": "Online Basic",
       "price": "₺499",
-      "tagline": "Sıfırdan başla, temelini oluştur",
-      "features": ["Antrenman Programı", "Beslenme Rehberi", "Teknik Videolar", "7/24 Destek"]
+      "oldPrice": "₺799",
+      "tagline": "Evde veya salonda tek başına gelişmek isteyenler için.",
+      "features": [
+        "Kişiye özel antrenman",
+        "Beslenme rehberi",
+        "Hareket videoları",
+        "Aylık güncelleme",
+        "WhatsApp destek"
+      ]
     },
     "growth": {
-      "name": "Gelişim Paketi",
+      "name": "Online Plus",
       "price": "₺799",
-      "tagline": "Düzenli gelişim, istikrarlı sonuç",
-      "features": ["Antrenman Programı", "Beslenme Rehberi", "Teknik Videolar", "İlerleme Takibi", "7/24 Destek"]
+      "oldPrice": "₺999",
+      "tagline": "En hızlı gelişimi isteyenlerin tercihi.",
+      "features": [
+        "Her şey dahil",
+        "Haftalık program güncellemesi",
+        "Haftalık form analizi",
+        "Video ile teknik düzeltme",
+        "Öncelikli WhatsApp desteği",
+        "İlerleme takibi"
+      ]
     },
     "pro": {
-      "name": "Pro Paket",
-      "price": "₺1299",
-      "tagline": "Profesyonel destek, maksimum dönüşüm",
-      "features": ["Antrenman Programı", "Beslenme Rehberi", "Teknik Videolar", "İlerleme Takibi", "Birebir Koçluk", "7/24 Destek"]
+      "name": "1:1 Coaching",
+      "price": "₺1499",
+      "oldPrice": "₺3000",
+      "tagline": "Sınırlı kontenjan — ayda sadece 10 kişi.",
+      "features": [
+        "Her şey dahil",
+        "Haftalık yüz yüze antrenman",
+        "Hybrid antrenmanı",
+        "Birebir teknik eğitim",
+        "Beslenme kontrolü",
+        "7/24 iletişim",
+        "Motivasyon takibi",
+        "Hareket öğretimi"
+      ]
     }
   },
   "testimonials": {
@@ -167,7 +193,12 @@
     "contactTitle": "İletişim",
     "rights": "Tüm hakları saklıdır."
   },
+  "social": {
+    "instagram": "https://www.instagram.com/iamciisse",
+    "youtube": "https://www.youtube.com/@mhdcisse-34"
+  },
   "whatsapp": {
+    "number": "",
     "float": "WhatsApp'tan yaz",
     "defaultMessage": "Merhaba! Calisthenics koçluğu hakkında bilgi almak istiyorum."
   }

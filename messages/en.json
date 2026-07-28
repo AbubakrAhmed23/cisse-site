@@ -81,25 +81,51 @@
     "subheading": "Flexible coaching packages for every level. Upgrade anytime.",
     "perMonth": "/mo",
     "popular": "Most Popular",
+    "popularKey": "growth",
     "select": "Choose This Package",
     "whatsappPrefix": "Hi, I'd like to learn more about the {package}.",
     "starter": {
-      "name": "Starter Package",
+      "name": "Online Basic",
       "price": "₺499",
-      "tagline": "Start from scratch, build your base",
-      "features": ["Training Program", "Nutrition Guide", "Technique Videos", "24/7 Support"]
+      "oldPrice": "₺799",
+      "tagline": "For those who want to progress on their own, at home or at the gym.",
+      "features": [
+        "Personalized training program",
+        "Nutrition guide",
+        "Exercise videos",
+        "Monthly updates",
+        "WhatsApp support"
+      ]
     },
     "growth": {
-      "name": "Growth Package",
+      "name": "Online Plus",
       "price": "₺799",
-      "tagline": "Steady progress, consistent results",
-      "features": ["Training Program", "Nutrition Guide", "Technique Videos", "Progress Tracking", "24/7 Support"]
+      "oldPrice": "₺999",
+      "tagline": "The choice for those who want the fastest progress.",
+      "features": [
+        "Everything included",
+        "Weekly program updates",
+        "Weekly form analysis",
+        "Technique correction via video",
+        "Priority WhatsApp support",
+        "Progress tracking"
+      ]
     },
     "pro": {
-      "name": "Pro Package",
-      "price": "₺1299",
-      "tagline": "Professional support, maximum transformation",
-      "features": ["Training Program", "Nutrition Guide", "Technique Videos", "Progress Tracking", "One-on-One Coaching", "24/7 Support"]
+      "name": "1:1 Coaching",
+      "price": "₺1499",
+      "oldPrice": "₺3000",
+      "tagline": "Limited availability — only 10 people per month.",
+      "features": [
+        "Everything included",
+        "Weekly in-person training",
+        "Hybrid training",
+        "One-on-one technique coaching",
+        "Nutrition monitoring",
+        "24/7 communication",
+        "Motivation tracking",
+        "Movement instruction"
+      ]
     }
   },
   "testimonials": {
@@ -167,7 +193,12 @@
     "contactTitle": "Contact",
     "rights": "All rights reserved."
   },
+  "social": {
+    "instagram": "https://www.instagram.com/iamciisse",
+    "youtube": "https://www.youtube.com/@mhdcisse-34"
+  },
   "whatsapp": {
+    "number": "",
     "float": "Message on WhatsApp",
     "defaultMessage": "Hi! I'd like to learn more about your calisthenics coaching."
   }
